@@ -1,0 +1,122 @@
+﻿
+
+  @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Dosis:wght@400;600&family=Krona+One&family=Montserrat:wght@600&display=swap');
+
+
+  * {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: #e7e3e0;
+}
+
+.apresentacao {
+    margin: 10% 15%;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0% 8%;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 25px;
+    font-weight: 35;
+    font-family: 'Krona One', sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo-destaque {
+    color: #da9b71;
+    font-size: 25px;
+    align-items: center;
+}
+
+.apresentacao__conteudo__paragrafo {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    text-justify:auto;
+    text-align: justify;
+}
+
+.apresentacao__conteudo__paragrafo2 {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    text-justify:auto;
+    text-align: justify;
+}
+
+.apresentacao__botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-evenly;
+    /*justify-content: space-between;*/
+    gap: 32px;
+}
+
+.apresentacao__botoes__subtitulo {
+    font-family: 'krona One', 'Montserrat';
+    font-weight: 20;
+    font-size: 18px;
+
+}
+
+.apresentacao__botoes__link {
+    background-color: #f6f6f609;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 70%;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #da864e;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color:#e7e3e0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__perfil {
+    font-family: 'krona One', 'Montserrat';
+    font-weight: 200;
+    font-size: 16px;
+    text-align: center;
+    color:#ffffff;
+    border: 1px solid #da864e;
+    border-radius: 5px;
+    padding: 3px 3px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.apresentacao__perfil:hover{
+    color:rgb(75, 195, 250);
+    margin: 2% 2% 2% 2%;
+    text-decoration: underline;
+}
+
+.apresentacao__perfil1, .apresentacao__perfil3 {
+    font-family: 'krona One', 'Montserrat';
+    font-weight: 200;
+    font-size: 18px;
+    text-align: center;
+    color: #e7e3e0;
+    text-decoration: none;
+    align-items: center;
+}
+

@@ -1,0 +1,102 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Dancing+Script:wght@500&family=Didact+Gothic&family=Dosis:wght@400;600&family=Indie+Flower&family=Krona+One&family=Montserrat:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&family=Bilbo&family=Corinthia:wght@700&family=Dosis:wght@500&family=Ephesis&family=Handlee&family=Inter&family=Passions+Conflict&family=Playfair&family=Rambla&display=swap');
+
+* { /*Configuração global da CSS */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: auto;
+    display: inline-block;
+    background-size: cover;
+}
+
+.logo {
+    height: 100px;
+    align-items: baseline;
+}
+
+.faixa {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #da9b71;
+}
+
+.nav-item-personalizado {
+    color:#000000;
+}
+
+.menu:hover {
+    color:#e77f39!important;
+    font-weight: bold;
+}
+
+.active {
+    color: #e77f39;
+    text-overflow: #e77f39;
+    font-weight: bold;
+}
+
+.painel {
+    display: flex;
+    float: left;
+    background-color: #000000;
+}
+
+main {
+    background-color: black; /*no repeat center center; ALINHA CENTRO DO EIXO X e Y*/
+    background-size: cover; /*Caso a resolução do monitor seja maior, para adaptar-se*/
+}
+
+.container {
+    display: grid;
+    overflow: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px; /*Distancia entre os elementos da DIV*/
+    place-items: center; /*centraliza o elemento na DIV */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.text {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin: 12% 35% 0% 35%;
+    display: flex;
+    height: 80vh;
+}
+
+.botoes {
+    background-color: #da9b71 !important;
+    border-color: white !important;
+    color: white !important;
+    margin-top: 5%;
+    width: 100%;
+    justify-content: center;
+}
+
+.cartoes {
+    display: flex;
+    height: auto;
+    background-color: white;
+    margin:auto;
+    overflow: auto;
+    gap: 4%; /*Distancia entre os elementos da DIV*/
+    place-items: center; /* centraliza o elemento na DIV */
+    justify-content:center;
+    align-items: center;
+}
+
+.data {
+    text-decoration: none;
+    color:#000000;
+}
+
+
