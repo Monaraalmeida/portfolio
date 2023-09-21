@@ -9,7 +9,7 @@
 }
 
 body{
-    height: 100vh;
+    height: 10em;
     box-sizing: border-box;
     background-color: black;
     color: #e7e3e0;
@@ -23,7 +23,7 @@ body{
 }
 
 .apresentacao__conteudo {
-    width: 100em;
+    width: 90em;
     display: flex;
     flex-direction: column;
     gap: 2em;

@@ -37,8 +37,6 @@
 
 
 .informacao {
-    width: 80em;
-    height: auto;
     display: flex;
     background-color: black;
 }
@@ -64,7 +62,7 @@
 .texto {
     color:white;
     text-align:center;
-    margin: 8em 17em 3em 5em;
+    margin: 8em 21em 3em 5em;
     /* padding: 15% 15%; */
     font-size: 1em;
 }
@@ -74,9 +72,10 @@
     display: flexbox;
     width: 30em;
     height: auto;
-   margin: 0 auto;
+    margin: 0 auto;
     background-color: black;
     align-items: center;
+    padding: 1em 0;
 }
 
 .carrosel-ti {
@@ -86,6 +85,7 @@
     margin: 0 auto;
     background-color: black;
     align-items: center;
+    padding: 1em 0;
 
 }
 
@@ -100,9 +100,11 @@
 #link-topo {
     text-decoration: none;
     color:white;
-    font-size: 20px;
-    margin: 0% 5% 0% 93%; 
-    /*position:fixed;*/
-    /* left: 93%; */
-    width: 90%;
+    font-size: 2em;
+    bottom: 3.5em;
+    right: 1.5em;
+    position:fixed;
+    width: 2em;
+    height: 1em;
+    font-size: 1.5em;
 }
