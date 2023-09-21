@@ -37,7 +37,7 @@
 
 
 .informacao {
-    width: 100%;
+    width: 80em;
     height: auto;
     display: flex;
     background-color: black;
@@ -48,8 +48,8 @@
     border-color: white !important;
     color: white !important;
     margin-top: 0.1em;
-    width: 12em;
-    padding: 2em;
+    width: 10em;
+    padding: 1em;
     align-items: center;
     justify-content: center;
 }
@@ -59,37 +59,34 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin: 10% 10% 10% 19%;
 }
 
 .texto {
     color:white;
     text-align:center;
-    margin: 7% 25% 2% 6%;
+    margin: 8em 17em 3em 5em;
     /* padding: 15% 15%; */
-    font-size: 16px;
+    font-size: 1em;
 }
+
 
 .carrosel {
     display: flexbox;
-    width: 50%;
+    width: 30em;
     height: auto;
-   /* margin: 0% 35% 3% 25%;*/
    margin: 0 auto;
     background-color: black;
     align-items: center;
-    /* justify-items:flex-start; */
 }
 
 .carrosel-ti {
     display: flexbox;
-    width: 30%;
+    width: 30em;
     height: auto;
-   /* margin: 0% 35% 3% 25%;*/
-   margin: 0 auto;
+    margin: 0 auto;
     background-color: black;
     align-items: center;
-    /* justify-items:flex-start; */
+
 }
 
 .fotos{

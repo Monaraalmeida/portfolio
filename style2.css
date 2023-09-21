@@ -60,7 +60,7 @@ main {
     place-items: center; /*centraliza o elemento na DIV */
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 10em;
     position: relative;
 }
 
@@ -68,18 +68,27 @@ main {
     text-align: center;
     justify-content: center;
     color: white;
-    margin: 12% 35% 0% 35%;
+    margin: 10em 25em 0em 25em;
     display: flex;
     height: 80vh;
+}
+
+.efeito:hover{
+    color:#e78c50;
 }
 
 .botoes {
     background-color: #da9b71 !important;
     border-color: white !important;
     color: white !important;
-    margin-top: 5%;
-    width: 100%;
+    margin-top: 0.5em;
+    width: 9em;
     justify-content: center;
+}
+
+.botoes:hover {
+    background-color:#e77f39 !important;
+  
 }
 
 .cartoes {
@@ -88,15 +97,10 @@ main {
     background-color: white;
     margin:auto;
     overflow: auto;
-    gap: 4%; /*Distancia entre os elementos da DIV*/
+    gap: 4em; /*Distancia entre os elementos da DIV*/
     place-items: center; /* centraliza o elemento na DIV */
     justify-content:center;
     align-items: center;
-}
-
-.data {
-    text-decoration: none;
-    color:#000000;
 }
 
 
