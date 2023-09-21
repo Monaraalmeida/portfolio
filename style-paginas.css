@@ -37,6 +37,8 @@
 
 
 .informacao {
+    width: 100%;
+    height: auto;
     display: flex;
     background-color: black;
 }
@@ -60,9 +62,11 @@
 }
 
 .texto {
+    display:flex;
+    float: left;
     color:white;
     text-align:center;
-    margin: 8em 21em 3em 5em;
+    margin: 8em 22em 3em 7em;
     /* padding: 15% 15%; */
     font-size: 1em;
 }
@@ -101,7 +105,7 @@
     text-decoration: none;
     color:white;
     font-size: 2em;
-    bottom: 3.5em;
+    bottom: 3.3em;
     right: 1.5em;
     position:fixed;
     width: 2em;
