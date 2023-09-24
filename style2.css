@@ -8,7 +8,7 @@
 }
 
 body {
-    width: auto;
+    width: 100%;
     display: inline-block;
     background-size: cover;
 }
@@ -42,35 +42,37 @@ body {
 }
 
 .painel {
+    width: 100%;
     display: flex;
     float: left;
     background-color: #000000;
 }
 
 main {
+    text-align: center;
+    justify-content: center;
     background-color: black; /*no repeat center center; ALINHA CENTRO DO EIXO X e Y*/
     background-size: cover; /*Caso a resolução do monitor seja maior, para adaptar-se*/
 }
 
 .container {
-    display: grid;
+display: flex;
     overflow: auto;
     grid-template-columns: 1fr 1fr;
     grid-gap: 5px; /*Distancia entre os elementos da DIV*/
     place-items: center; /*centraliza o elemento na DIV */
     align-items: center;
     justify-content: center;
-    width: 10em;
+    width: 100%;
     position: relative;
 }
 
 .text {
-    text-align: center;
-    justify-content: center;
-    color: white;
-    margin: 10em 25em 0em 25em;
     display: flex;
-    height: 80vh;
+    align-items: center;
+    color: white;
+    padding: 2em 0em;
+
 }
 
 .efeito:hover{
